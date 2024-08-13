@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+h1 {
+    color:rgba(255, 255, 255, 0.418);
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left:235px;
+}
+
+li {
+    margin: 0px 20px;
+    font-weight: 10px;
+    color: rgba(255, 255, 255, 0.418);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cover {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_fw24_ub5_global_launch_mglp_banner_hero_d_ae2dd91a57.jpg);
+    background-size: cover;
+    
+    color: aliceblue;
+    background-attachment: fixed;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.top {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.end {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#head2 {
+    text-align: center;
+    color: black;
+    margin: 20px 0px 20px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    background-color:black;
+    padding: 10px;
+    margin: 10px 200px 10px 200px;
+    height: 660px;
+    position: absolute;
+}
+
+.grid-container>div {
+    background-color:black;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 30px;
+}
+
+.item1 {
+    grid-row: span 2;
+    height: 300px;
+
+}
+
+.item4 {
+    grid-row: span 2;
+    height: 350px;
+    margin-top: 60px;
+}
+
+.item3 {
+    grid-row: span 2;
+    height: 400px;
+    
+}
+
+.item2 {
+    height: 190px;
+}
+
+.item6 {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.item5 {
+    height: 10px;
+    margin-top: -130px;
+}
+
+#gc {
+    margin-left: 280px;
+}
+
+#gridBackground {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    height: 780px;
+}
+
+#main {
+    width: 100%;
+    height:100%;
+    background-color:rgb(154, 55, 8);
+
+}
+
+#thoma {
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/theme.jpg);
+    margin-top: px;
+    display: flex;
+    color: rgb(186, 181, 181);
+    justify-content: space-evenly;
+}
+
+.good {
+    margin-top: 120px;
+}
+
+.alan {
+    margin-left: 80px;
+}
+
+.george {
+    margin-left: 100px;
+}
+
+.nira {
+    margin-left: 75px;
+}
+
+.meli {
+    margin-left: 89px;
+}
+
+.grid-containerr {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 100px;
+    height: 100px;
+    margin-top: 0px;
+    background-color: black;
+    padding-left: 170px;
+}
+
+.grid-containerr>div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* text-align: center; */
+    padding: 20px 20px;
+    font-size: px;
+    font-weight: 60px;
+}
+
+.grid-containerr>p {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+
+}
+
+
+#yuye {
+    
+    height: 320px;
+    width: 100;
+    background-color:rgb(154, 55, 8);
+    text-align: center;
+    color: rgb(186, 181, 181);
+    font-size:medium;
+    justify-content: space-evenly;
+}
+
+.img2 {
+    margin-top: -120px;
+    
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 00px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+.foot {
+    padding: 50px;
+    text-align: justify;
+    
+
+}
+.p{
+    color:rgba(186, 181, 181, 0.785);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    padding-left: 70px;
+    padding-top: 45px;
+    
+}
+.amma{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size:large;
+    padding-top: 50px;
+    color: rgb(186, 181, 181);
+}
+h1{
+    top: 50%;
+    font-weight: 100;
+}
+.verthe{
+    text-align: center;
+}
+i{
+    padding-left: 11px;
+}
+#icn{
+    padding-left: 140px;
+    padding-bottom: 170px;
+    font-size:medium;
+    
+}
+.im1{
+    border-top-left-radius: 100px;
+}
+.im1:hover{
+    transform:scale(0.97);
+}
+.im2:hover{
+    transform:scale(0.97);
+    
+}
+.im3{
+    border-top-right-radius: 0px;
+}
+.im3:hover{
+    
+    transform:scale(0.97);
+    
+}
+.im4{
+    padding-top: 0.3rem;
+}
+.im4:hover{
+    transform:scale(0.97);
+}
+.im5:hover{
+    transform:scale(0.97);
+}
+.im6{
+    padding-top: 0.3rem;
+}
+.im6{
+    border-bottom-right-radius: 100px;
+}
+.im6:hover{
+    transform:scale(0.97);
+}
+.search{
+    background-color: rgb(42, 42, 40);
+    height: 20px;
+    width: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 3rem;
+    
+}
+.link{
+    color: rgba(186, 181, 181, 0.785) ;
+}
+.link:hover{
+    color: orangered;
+
+}
+#ic{
+    color: rgb(65, 9, 9);
+    font-weight: 800;
+    font-size:larger;
+}
+#follow{
+    font-size:small;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+.icon:hover .brands{
+    color: aliceblue;
+    /* animation */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.upArrow{
+    float: right;
+    margin: -50px 20px 40px 0px;
+    font-size:xx-large;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10%;
+}
+
+
